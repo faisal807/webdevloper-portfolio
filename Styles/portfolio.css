@@ -1,8 +1,14 @@
 /* shared style */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700;800&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    left: 0;
+    margin-top: 0;
 }
 .text-primary{
     color: #FD6E0A;
@@ -17,10 +23,12 @@ body{
     padding: 15px 35px;
 }
 /* nav related styles */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px;
@@ -38,4 +46,19 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-content{
+    
 }
