@@ -202,8 +202,10 @@ input[type="text"],[type="email"]{
     border-radius: 10px;
     line-height: 50px;
     color: #fff;
+    width: 450px;
 }
 textarea{
     border: none;
     border-radius: 5px;
+    width: 450px;
 }
