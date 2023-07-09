@@ -9,7 +9,7 @@
 <body>
     <header class="header hc">
         <nav>
-            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <h3 class="nav-title">Fais<span class="text-primary">a</span>l</h3>
             <ul>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#blog">Blog</a></li>
@@ -19,7 +19,7 @@
         <div class="banner">
             <div class="banner-content">
                 <h3 class="banner-greeting">Hi ,I am</h3>
-                <h1 class="banner-title">Mary Hardy</h1>
+                <h1 class="banner-title">Faisal Ahmed</h1>
                 <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly <br> he. Morning because as to society behaved moments.</p>
                 <button class="btn-primary">Download CV</button>
                 <button class="btn-primary">Contact</button>
@@ -35,19 +35,19 @@
             <div class="info-box">
                 <div class="name">
                     <p class="info-text">Name:</p>
-                    <h3>Mary Hardy</h3>
+                    <h3>Faisal Ahmed</h3>
                 </div>
                 <div class="email">
                     <p class="info-text">Email:</p>
-                    <h3>Info@gmail.com</h3>
+                    <h3>webobd5@gmail.com</h3>
                 </div>
                 <div class="dob">
                     <p class="info-text">Date Of Birth:</p>
-                    <h3>27th May 1986</h3>
+                    <h3>27th May 1999</h3>
                 </div>
                 <div class="from">
                     <p class="info-text">From:</p>
-                    <h3>LA , CA,USA</h3>
+                    <h3>SGN, SYL,Bangladesh</h3>
                 </div>
             </div>
             </div>
@@ -178,14 +178,14 @@
                 </div>
                 <div class="message">
                     <h4>Lets Message me</h4>
-                    <form>
-                        <input type="text" placeholder="Your Name">
+                    <form method="POST" onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Your Name">
                         <br>
                         <br>
-                        <input type="email" placeholder="Your Email"> 
+                        <input type="email" id="email" placeholder="Your Email"> 
                         <br>
                         <br>
-                        <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                        <textarea name="Message" id="message" cols="30" rows="10"></textarea>
                         <br>
                         <br>
                         <button class="btn-primary">Submit</button>
@@ -195,5 +195,9 @@
             <p class="center">&copy; 2023 All Right Reserved Faisal Ahmed</p>
         </section>
     </footer>
+    <script src=
+    "https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>

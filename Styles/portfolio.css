@@ -107,6 +107,10 @@ nav li a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
+/* .profile-pic{
+    height: 600px;
+    width: 1200px;
+} */
 
 /* main section styles */
 section{
@@ -203,6 +207,8 @@ input[type="text"],[type="email"]{
     line-height: 50px;
     color: #fff;
     width: 450px;
+    color: #474747;
+    font-family: 'Courier New', Courier, monospace;
 }
 textarea{
     border: none;
