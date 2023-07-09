@@ -7,7 +7,8 @@
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    top: 0;
+    margin-top: 0;
+    right: 0;
 }
 .text-primary{
     color: #FD6E0A;
@@ -21,9 +22,26 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+.btn-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .section-title{
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+.section-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.center{
+    text-align: center;
 }
 /* nav related styles */
 
@@ -57,6 +75,7 @@ nav li a{
     background-repeat: no-repeat;
     background-position: bottom right;
     position: relative;
+    margin-right: 0;
     
 }
 /* .hc{
@@ -90,10 +109,101 @@ nav li a{
 }
 
 /* main section styles */
-
+section{
+    background: #fff;
+}
 /* about section styles */
 .about{
     padding: 150px;
+    background-color: #FFF;
+}
+.about-content{
+    padding: 25px 25px;
     border-radius: 10px;
-    background-color: #FFF8F3;
+    background: #FFF8F3;
+}
+.info-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* service section  */
+.service{
+    margin-top: 120px;
+    padding: 25px;
+}
+.service-info{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.js, .react, .nodejs, .mongodb{
+ margin-right: 25px;
+}
+.box{
+    padding: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section start here */
+.resume{
+    margin-top: 120px;
+    padding: 25px;
+    text-align: justify;
+}
+.resume-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    align-items: center;
+}
+.education{
+    padding: 25px;
+    align-items: center;
+}
+.experience{
+    padding: 25px;
+    align-items: center;
+}
+.masters{
+    padding: 5px;
+    align-items: center;
+}
+.job{
+    padding: 5px;
+    align-items: center;
+}
+/* Footer section start  */
+.footer{
+   background-color: #FFF8F3;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.connect{
+    padding: 25px;
+}
+.message{
+    padding: 25px;
+    line-height: 35px;
+}
+form{
+    line-height: 25px;
+}
+input[type="text"],[type="email"]{
+    border: none;
+    padding: 5px;
+    border-bottom: 24px;
+    border-radius: 10px;
+    line-height: 50px;
+    color: #fff;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
 }
