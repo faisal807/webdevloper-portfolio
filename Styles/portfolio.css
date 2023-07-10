@@ -43,6 +43,12 @@ body{
 .center{
     text-align: center;
 }
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    
+}
 /* nav related styles */
 
 nav{
@@ -75,8 +81,8 @@ nav li a{
     background-repeat: no-repeat;
     background-position: bottom right,bottom left;
     margin-right: 0;
-    background-size: 800px,contain;
-    
+    background-size: 700px, 100px;
+    height: 100%;
 }
 
  
